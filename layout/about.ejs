@@ -38,6 +38,14 @@
         </span>
       </a>
     <% } %>
+    <% if (theme.about.email) { %>
+      <a class="icon-email" href="mailto:<%- theme.about.email %>" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    <% } %>
     <% if (theme.about.linkedin_username) { %>
       <a class="icon-linkedin" href="https://www.linkedin.com/in/<%- theme.about.linkedin_username %>" target="_blank">
         <span class="fa-stack fa-lg">
