@@ -52,6 +52,10 @@
       <!-- Gitment START -->
       <div id="comments"></div>
       <!-- Gitment END -->
+    <% } else if (theme.comment === 'gitalk') { %>
+      <!-- Gitalk START -->
+      <div id="gitalk-container"></div>
+      <!-- Gitalk END -->
     <% } else if (theme.comment === 'uyan') { %>
       <!-- UY START -->
       <div id="uyan_frame"></div>
@@ -159,6 +163,20 @@
       })
       gitment.render(document.getElementById('comments'))
     }
+  </script>
+<% } %>
+
+<% if (theme.comment === 'gitalk' ) { %>
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '<%= theme.gitalk.clientId %>',
+      clientSecret: '<%= theme.gitalk.clientSecret %>',
+      id: window.location.pathname,
+      repo: '<%= theme.gitalk.repo %>',
+      owner: '<%= theme.gitalk.owner %>',
+      admin: '<%= theme.gitalk.admin %>'
+    })
+    gitalk.render('gitalk-container')
   </script>
 <% } %>
 

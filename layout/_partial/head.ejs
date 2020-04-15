@@ -22,6 +22,9 @@
   <% if (theme.comment === 'gitment') { %>
     <%- css('css/plugins/gitment.css') %>
   <% } %>
+  <% if (theme.comment === 'gitalk') { %>
+    <%- css('https://unpkg.com/gitalk/dist/gitalk.css') %>
+  <% } %>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
@@ -30,6 +33,9 @@
   <% } %>
   <% if (theme.comment === 'gitment') { %>
     <%- js('js/gitment') %>
+  <% } %>
+  <% if (theme.comment === 'gitalk') { %>
+    <%- js('https://unpkg.com/gitalk/dist/gitalk.min.js') %>
   <% } %>
   <%- partial('_third-party/mathjax') %>
   <%- partial('_third-party/google_analytics') %>
