@@ -74,6 +74,17 @@ tags:
 Add this to the top of your article markdown file. 
 
 ## Change Log  
+
+**2020-04-16**
+- 添加busuanzi统计
+
+**2020-04-15**
+- 添加gitalk评论功能
+- 添加百度统计功能
+
+**2020-04-14**
+* About页面添加email
+
 **2017-09-21**
 * Added article catalog
 * Fixed bugs
@@ -158,6 +169,8 @@ zhihu_username: your_zhihu_account
 - Give a star if you like , fork or just clone to use , and also you can help me fix bugs and add new feature :)
 - If you have any problem or requirement , just open an issue here and i will help you.
 - Thanks to [@imsun](https://github.com/imsun) , [@Evan You](https://github.com/yyx990803) and [@Hexo](https://hexo.io).
+
+
 
 ## LICENSE
 MIT
