@@ -3,6 +3,10 @@
     &copy; <%= new Date().getFullYear() %> | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
     <br>
     Theme by <a href="https://github.com/yanm1ng">yanm1ng</a>
+    <br>
+    PV: <span id="busuanzi_value_site_pv"></span> |
+    UV: <span id="busuanzi_value_site_uv"></span> |
+    PPV: <span id="busuanzi_value_page_pv"></span>
   </p>
 </footer>
 
@@ -55,4 +59,6 @@
     })();
 </script>
 <% } %>
+<!-- busuanzi -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <%- js('js/script') %>
