@@ -54,7 +54,7 @@ gitalk:
 # if you want to use uyan as your blog comment, plz remove/comment out gitment config
 
 baidu_analytics: true
-baidu_id: bf809fdb4f2243c687ead4f074335c7c
+baidu_id: 1da5032819b12da8d4c1fb82c6f21ffa
 google_analytics:
 # disqus config
 disqus_shortname: 
