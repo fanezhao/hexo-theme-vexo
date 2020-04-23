@@ -6,7 +6,7 @@
   <% if (config.favicon || theme.favicon){ %>
     <link rel="shortcut icon" type="image/ico" href="<%= config.favicon || theme.favicon %>"/>
   <% } else { %>
-    <%- favicon_tag('css/images/logo.png') %>
+    <%- favicon_tag('http://cdn.zmoyi.com/static/images/logo.png') %>
   <% } %>
   <title>
     <% if (page.title){ %>
@@ -41,5 +41,5 @@
   <%- partial('_third-party/google_analytics') %>
 </head>
 <div class="wechat-share">
-  <img src="/css/images/logo.png" />
+  <img src="http://cdn.zmoyi.com/static/images/logo.png" />
 </div>
