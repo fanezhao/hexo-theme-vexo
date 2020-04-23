@@ -1,7 +1,7 @@
 author: Fane # 作者
 description: Fane's blog
 keyword: ZMOYI, 原创博客, Java, Golang, Linux, 全栈, 后端开发, 前端开发
-favicon: http://q8mr3z1u9.bkt.clouddn.com/static/images/ico.png
+favicon: http://cdn.zmoyi.com/static/images/ico.png
 
 excerpt_link: Read more
 
@@ -60,8 +60,8 @@ google_analytics:
 disqus_shortname: 
 
 about: 
-  banner: http://q8mr3z1u9.bkt.clouddn.com/static/images/about-bg.jpg
-  avatar: http://q8mr3z1u9.bkt.clouddn.com/static/images/avatar.jpeg
+  banner: http://cdn.zmoyi.com/static/images/about-bg.jpg
+  avatar: http://cdn.zmoyi.com/static/images/avatar.jpeg
   description: "Don't put off till tomorrow what should be done today."
   weibo_username: 
   twitter_username: 
