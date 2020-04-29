@@ -5,8 +5,16 @@
     | UV: <span id="busuanzi_value_site_uv"></span>
     | PPV: <span id="busuanzi_value_page_pv"></span>
     <br>
-    <a href="http://www.beian.miit.gov.cn/"><%= config.icp %></a>
   </p>
+  <div style="width:350px;margin:0 auto; padding:0px 0; overflow: hidden;">
+    <a href="http://www.beian.miit.gov.cn/" style="display:inline-block;text-decoration: none; height:20px;line-height:20px;float: left;">
+        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;"><%= config.icp %></p >
+    </a >
+    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=<%= config.gongan %>" style="display:inline-block; text-decoration: none; height:20px; line-height:20px; float:right;">
+        <img src="http://cdn.zmoyi.com/static/images/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" style="float:left;" alt="">
+        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">浙公网安备 <%= config.gongan %>号</p >
+    </a >
+  </div>
 </footer>
 
 <script>
