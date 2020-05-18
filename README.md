@@ -12,7 +12,7 @@
 
 ## Demo
 
-[Live Example](https://yanm1ng.github.io/)
+[Live Example](http://zmoyi.com)
 
 ## Features
 
